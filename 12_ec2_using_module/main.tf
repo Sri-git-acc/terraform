@@ -1,5 +1,5 @@
 module "instance" {
-    source = "../../terraform-modules/ec2-module"
+    source = "../../terraform-modules/ec2"
     sg_id = "sg-04c3a55634d7da8d9"
 
     tags = {
